@@ -1,0 +1,105 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --baseline: 1.2;
+    line-height: var(--baseline);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    /* line-height: 1.2; */
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ececec;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: calc(var(--baseline) * 1.5rem);
+}
+
+/* Utility classes */
+.mb2 { margin-bottom: 2.4rem; }
+.mb4 { margin-bottom: 4.8rem; }
+.btn {
+    background-color: #211e1e;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    outline: none;
+    padding: 0.6rem;
+    text-decoration: none;
+    transition: background-color .5s;
+}
+.btn:hover { background-color: #0000b5; }
+/* Utility classes end */
+
+.container {
+    margin: 1.2rem auto;
+    max-width: 960px;
+    padding: 1.8rem;
+    width:  100%;
+}
+
+.text-headline {
+    color: #000075;
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: calc(var(--baseline) * 3rem);
+}
+
+.text-link {
+    color: #0000B5;
+    text-decoration: none;
+}
+
+.text-link:hover {
+    text-decoration: underline;
+}
+
+.work-headline {
+    color: #000075;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: calc(var(--baseline) * 3rem);
+}
+
+.work-item {
+    border-bottom: 0.3rem solid #000075;
+    padding: 2.4rem 0 3.3rem;
+}
+
+.work-item:first-child {
+    padding-top: 0;
+}
+
+@media screen and (max-width: 978px) and (min-width: 641px) {
+    .text-headline {
+        font-size: 4rem;
+        line-height: calc(var(--baseline) * 3.5rem);
+    }
+
+    .work-headline {
+        font-size: 2.4rem;
+        line-height: calc(var(--baseline) * 3rem);
+    }
+} 
+
+@media screen and (min-width: 979px) {
+    .text-headline {
+        font-size: 4.8rem;
+        line-height: calc(var(--baseline) * 4.5rem);
+    }
+
+    .work-headline {
+        font-size: 2.8rem;
+        line-height: calc(var(--baseline) * 3rem);
+    }
+}
