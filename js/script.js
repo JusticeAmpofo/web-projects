@@ -18,6 +18,56 @@ const data = [
         name: 'Custom Video Player',
         path: './3_custom-video-player',
         gitHub: `${gitHubMaster}3_custom-video-player`
+    },
+    {
+        name: 'Exchange Rate Calculator',
+        path: './4_Exchange Rate Calculator',
+        gitHub: `${gitHubMaster}4_Exchange Rate Calculator`
+    },
+    {
+        name: 'Dom Array Methods',
+        path: './5_dom-array-methods',
+        gitHub: `${gitHubMaster}5_dom-array-methods`
+    },
+    {
+        name: 'Modal Menu Slider',
+        path: './6_modal-menu-slider',
+        gitHub: `${gitHubMaster}6_modal-menu-slider`
+    },
+    {
+        name: 'Hangman',
+        path: './7_hangman',
+        gitHub: `${gitHubMaster}7_hangman`
+    },
+    {
+        name: 'Meal Finder',
+        path: './8_meal-finder',
+        gitHub: `${gitHubMaster}8_meal-finder`
+    },
+    {
+        name: 'Expense Tracker',
+        path: './9_expense-tracker',
+        gitHub: `${gitHubMaster}9_expense-tracker`
+    },
+    {
+        name: 'Music Player',
+        path: './10_music-player',
+        gitHub: `${gitHubMaster}10_music-player`
+    },
+    {
+        name: 'Infinite Scroll Blog',
+        path: './11_infinite_scroll_blog',
+        gitHub: `${gitHubMaster}11_infinite_scroll_blog`
+    },
+    {
+        name: 'Typing Game',
+        path: './12_typing-game',
+        gitHub: `${gitHubMaster}12_typing-game`
+    },
+    {
+        name: 'Speech Text Reader',
+        path: './13_speech-text-reader',
+        gitHub: `${gitHubMaster}13_speech-text-reader`
     }
 ];
 
