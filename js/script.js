@@ -1,4 +1,5 @@
 const work = document.getElementById('work');
+const loader = document.getElementById('loader');
 
 const gitHubMaster = 'https://github.com/JusticeAmpofo/web-projects/tree/master/';
 
@@ -73,7 +74,9 @@ const data = [
 
 // Functions
 function init() {
-    data.forEach(createListItem)
+    data.forEach(createListItem);
+    loader.style.display = "none";
+    work.style.display = "block";
 }
 
 function createListItem(item) {

@@ -64,6 +64,28 @@ body {
     text-decoration: underline;
 }
 
+/* Loader Start */
+.loader {
+    animation: spin 2s linear infinite;
+    border: 16px solid #fff;
+    border-top: 16px solid #000075;
+    border-bottom: 16px solid #000075;
+    border-radius: 50%;
+    height: 120px;
+    margin: 0 auto;
+    width: 120px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* Loader End */
+
+.work {
+    display: none;
+}
+
 .work-headline {
     color: #000075;
     font-size: 2.2rem;
