@@ -206,6 +206,7 @@ h1 button {
 @media only screen and (max-width: 500px) {
     .first-header {
         text-align: center;
+        margin-bottom: 0;
     }
 
     .first-header button {
@@ -221,12 +222,9 @@ h1 button {
     }
 
     .clear {
-        bottom: 10px;
+        font-size: 1.2rem;
+        margin-bottom: 2.4rem;
+        padding: 0.5rem 1rem;
+        position: static;
     }
 }
-
-/* @media only screen and (max-width: 500px) {
-    .clear {
-        bottom: 10px;
-    }
-} */
