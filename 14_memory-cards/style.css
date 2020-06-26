@@ -219,10 +219,14 @@ h1 button {
     .form-group textarea {
         min-width: 300px;
     }
-}
 
-@media only screen and (max-width: 500px) {
     .clear {
         bottom: 10px;
     }
 }
+
+/* @media only screen and (max-width: 500px) {
+    .clear {
+        bottom: 10px;
+    }
+} */
