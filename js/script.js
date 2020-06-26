@@ -69,6 +69,11 @@ const data = [
         name: 'Speech Text Reader',
         path: './13_speech-text-reader',
         gitHub: `${gitHubMaster}13_speech-text-reader`
+    },
+    {
+        name: 'Memory Cards',
+        path: './14_memory-cards',
+        gitHub: `${gitHubMaster}14_memory-cards`
     }
 ];
 
