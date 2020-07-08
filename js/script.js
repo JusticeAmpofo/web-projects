@@ -74,6 +74,11 @@ const data = [
         name: 'Memory Cards',
         path: './14_memory-cards',
         gitHub: `${gitHubMaster}14_memory-cards`
+    },
+    {
+        name: 'Lyrics Search',
+        path: './15_lyrics-search',
+        gitHub: `${gitHubMaster}15_lyrics-search`
     }
 ];
 
