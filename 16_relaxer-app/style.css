@@ -121,25 +121,25 @@ body {
     }
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 700px) { 
     @keyframes grow {
         from {
-            transform: scale(0.6);
+            transform: scale(0.5);
         }
     
         to {
-            transform: scale(0.8);
+            transform: scale(0.7);
         }
     }
 
 
     @keyframes shrink {
         from {
-            transform: scale(0.8);
+            transform: scale(0.7);
         }
     
         to {
-            transform: scale(0.6);
+            transform: scale(0.5);
         }
     }
 } 
