@@ -79,6 +79,11 @@ const data = [
         name: 'Lyrics Search',
         path: './15_lyrics-search',
         gitHub: `${gitHubMaster}15_lyrics-search`
+    },
+    {
+        name: 'Relaxer App',
+        path: './16_relaxer-app',
+        gitHub: `${gitHubMaster}16_relaxer-app`
     }
 ];
 
