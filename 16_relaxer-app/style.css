@@ -122,6 +122,11 @@ body {
 }
 
 @media only screen and (max-width: 700px) { 
+    .container {
+        transform: scale(0.5);
+        top: -50px;
+    }
+
     @keyframes grow {
         from {
             transform: scale(0.5);
