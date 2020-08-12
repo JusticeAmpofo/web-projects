@@ -84,6 +84,16 @@ const data = [
         name: 'Relaxer App',
         path: './16_relaxer-app',
         gitHub: `${gitHubMaster}16_relaxer-app`
+    },
+    {
+        name: 'Breakout Game',
+        path: './17_breakout-game',
+        gitHub: `${gitHubMaster}17_breakout-game`
+    },
+    {
+        name: 'New Year Countdown',
+        path: './18_new-year-countdown',
+        gitHub: `${gitHubMaster}18_new-year-countdown`
     }
 ];
 
