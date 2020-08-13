@@ -1,4 +1,4 @@
-# 20 Web Projects made with HTML, CSS and JS (In Progress)
+# 20 Web Projects made with HTML, CSS and JS
 
 I built these project while watching a <a class="text-link" href="https://www.udemy.com/course/web-projects-with-vanilla-javascript/" target="_blank">Udemy video course</a> by Brad Traversy.
 

@@ -94,6 +94,16 @@ const data = [
         name: 'New Year Countdown',
         path: './18_new-year-countdown',
         gitHub: `${gitHubMaster}18_new-year-countdown`
+    },
+    {
+        name: 'Sortable List',
+        path: './19_sortable-list',
+        gitHub: `${gitHubMaster}19_sortable-list`
+    },
+    {
+        name: 'Speak Number Guess Game',
+        path: './20_speak-number-guess',
+        gitHub: `${gitHubMaster}20_speak-number-guess`
     }
 ];
 
